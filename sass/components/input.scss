@@ -1,0 +1,9 @@
+.input {
+	background: $very_dark_blue $gradient no-repeat;
+	background-size: var(--percent) 100%;
+	border-radius: 20px;
+	width: 100%;
+	height: 10px;
+	appearance: none;
+  cursor: pointer;
+}

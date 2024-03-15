@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+
+<body>
+  <img src="./images/bg-desktop.png" alt="background" id="background_desktop">
+  <img src="./images/bg-mobile.png" alt="background" id="background_mobile">
+  <main>
+    <div id="card">
+      <div id="card_img">
+        <img src="./images/logo.svg" alt="logo" id="img_logo">
+        <div id="icons">
+          <img src="./images/icon-folder.svg" alt="icon-folder" class="icon">
+          <img src="./images/icon-document.svg" alt="icon-document" class="icon">
+          <img src="./images/icon-upload.svg" alt="icon-upload" class="icon">
+        </div>
+      </div>
+      <div id="card_text">
+        <div id="number_text">You’ve used <span>815 GB</span> of your storage</div>
+        <div id="number_left">
+          <div class="number"><span>185 </span>
+            <div id="gb_left">GB Left</div>
+          </div>
+          <div class="triangle"></div>
+        </div>
+        <input id="gradient-range" class="input" type="range" value="815" min="0" max="1000">
+        <div id="number_range">
+          <div id="number_start">0 GB</div>
+          <div id="number_end">1000 GB</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Muriel MARCHAL</a>.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

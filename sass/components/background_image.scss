@@ -1,0 +1,19 @@
+#background_desktop {
+    position: absolute;
+    z-index:-1;
+    margin-top: 70px;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        display: none;
+    }
+}
+
+#background_mobile {
+    display: none;
+    @media screen and (max-width : map-get($breakpoints, mobile)) {
+        width: 100%;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        margin-top: -100px;
+    }
+}
